@@ -32,15 +32,11 @@ The sales department of ABC Motor Corp, an automotive large player, when prepari
 - Provide access to the data file located in the instructor repo at `usecase-setup/business-automation/assets/ABC_Motor_Product_Catalog.pdf` that will be uploaded as knowledge.
 
 **Participants**:
-- Validate that you have access to the right TechZone environment for this lab.
-- Complete the [environment-setup](environment-setup) guide for steps on API key creation and project setup.
-- Make sure you have created a [**watsonx** project](environment-setup/create-project.md) and a [Deployment Space](https://www.ibm.com/docs/en/watsonx/saas?topic=spaces-creating-deployment) in your **watsonx** project. 
-- Make sure you have associated your WML service to your project. 
-TODO: add instructions on how to do this
-- Validate that you have access to a credentials file that your instructor will share with you before starting the labs.
-- Familiarity with AI agent concepts (e.g., instructions, tools, collaborators...)
-- Make sure that your instructor has provided the following:
-  - data file to be uploaded as knowledge
+- Complete the [environment-setup](environment-setup) guide from end-to-end. At the conclusion if it, you should have the following steps done: 
+   - **Step 1**: Create an IBMid. You can find instructions on how to do this [here](environment-setup/create-IBMid.md).
+   - **Step 2**: Validate that you have access to the right TechZone environment for this lab. You can find instructions on how to do this [here](environment-setup/access-env.md).
+   - **Step 2**: Create your IBM Cloud API Key. You can find instructions on how to do this [here](environment-setup/api_key_setup.md).
+   - **Step 4**: Create a watsonx project and deployment space. You can find instructions on how to do this [here](environment-setup/create-project.md).
 
 ## Create a watsonx.ai Agent
 
@@ -262,3 +258,4 @@ Follow the steps above, then try interacting with the use case using these sampl
    ![Comparison Agent Response 2](assets/chat_3.png)
 
 
+## Bonus lab

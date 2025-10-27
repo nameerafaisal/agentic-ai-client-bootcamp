@@ -1,4 +1,6 @@
- # 🥇 Business Automation - Competitive Insights
+# Detroit Agentic AI Bootcamp - October 30th, 2025
+ 
+## 🥇 Business Automation - Competitive Insights
 
 ![image](assets/hypercar3.png)
 
