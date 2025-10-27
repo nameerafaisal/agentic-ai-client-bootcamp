@@ -32,7 +32,7 @@ The sales department of ABC Motor Corp, an automotive large player, when prepari
 - Provide access to the data file located in the instructor repo at `usecase-setup/business-automation/assets/ABC_Motor_Product_Catalog.pdf` that will be uploaded as knowledge.
 
 **Participants**:
-- Complete the [environment-setup](environment-setup) guide from end-to-end. At the conclusion if it, you should have the following steps done: 
+- Complete the [environment-setup](environment-setup/README.md) guide from end-to-end. At the conclusion if it, you should have the following steps done: 
    - **Step 1**: Create an IBMid. You can find instructions on how to do this [here](environment-setup/create-IBMid.md).
    - **Step 2**: Validate that you have access to the right TechZone environment for this lab. You can find instructions on how to do this [here](environment-setup/access-env.md).
    - **Step 2**: Create your IBM Cloud API Key. You can find instructions on how to do this [here](environment-setup/api_key_setup.md).
