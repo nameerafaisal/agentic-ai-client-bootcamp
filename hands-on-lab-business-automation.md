@@ -14,6 +14,7 @@
 - [Create an Orchestrate Agent](#create-an-orchestrate-agent)
   - [Product Agent](#product-agent)
 - [Experience Agents in Action](#experience-agents-in-action)
+- [Bonus Labs - Embedding Orchestrate chat in a webpage](#-bonus-labs--embedding-orchestrate-chat-in-a-webpage)
 
 
 ## 🏛 Architecture  
