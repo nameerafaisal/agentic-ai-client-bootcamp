@@ -33,8 +33,8 @@ The sales department of ABC Motor Corp, an automotive large player, when prepari
 
 **Participants**:
 - Validate that you have access to the right TechZone environment for this lab.
-- Complete the [environment-setup](../../environment-setup) guide for steps on API key creation and project setup.
-- Make sure you have created a [**watsonx** project](../environment-setup/create-project.md) and a [Deployment Space](https://www.ibm.com/docs/en/watsonx/saas?topic=spaces-creating-deployment) in your **watsonx** project. 
+- Complete the [environment-setup](environment-setup) guide for steps on API key creation and project setup.
+- Make sure you have created a [**watsonx** project](environment-setup/create-project.md) and a [Deployment Space](https://www.ibm.com/docs/en/watsonx/saas?topic=spaces-creating-deployment) in your **watsonx** project. 
 - Make sure you have associated your WML service to your project. 
 TODO: add instructions on how to do this
 - Validate that you have access to a credentials file that your instructor will share with you before starting the labs.

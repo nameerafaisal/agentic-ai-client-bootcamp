@@ -1,6 +1,5 @@
  # 🥇 Business Automation - Competitive Insights
 
-<!--![image](https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/451557/b9fb42fc-4aa1-4010-b850-5c8f20e3e05a)-->
 ![image](assets/hypercar3.png)
 
 
@@ -59,7 +58,7 @@ You can find step-by-step instructions here :
 ## Demo Video
 A video demo of the solution is below:
 
-https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/453165/79bf26c4-69c8-4096-ab88-5f9fc38791e5
+https://github.com/nameerafaisal/agentic-ai-client-bootcamp/blob/main/video/Final%20Agentic%20Bootcamp%20Video.mp4
 
 
 
