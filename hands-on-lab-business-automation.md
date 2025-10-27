@@ -258,4 +258,17 @@ Follow the steps above, then try interacting with the use case using these sampl
    ![Comparison Agent Response 2](assets/chat_3.png)
 
 
-## Bonus lab
+## 🌐 Bonus Labs — Embedding Orchestrate Chat in a Webpage
+
+In this bonus lab, you’ll learn how to embed your Orchestrate chat experience directly into a simple HTML webpage. This allows you to interact with your agent outside of the Orchestrate interface — for example, within a product page, internal portal, or demo site. By the end of this lab, you’ll understand how to:
+
+- Connect your deployed agent using its public streaming endpoint.
+- Embed and render the chat interface using basic HTML and JavaScript.
+- Customize the layout and appearance to fit different web experiences.
+
+In the [bonus labs folder](bonus-labs) of this directory, you’ll find three examples that demonstrate different embedding styles:
+1. Pop-Up Chat – Displays the chat window when a user clicks a button.
+2. Fullscreen Overlay – Expands the chat interface to cover the entire screen.
+3. Custom Element – Embeds the chat as a reusable component within a webpage.
+
+Each example provides a ready-to-run HTML file so you can quickly test how Orchestrate chat can be integrated into any front-end environment.

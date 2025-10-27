@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo </title>
+    <link rel="icon" type="image/icon" href="favicon.ico">
+
+    <style>
+        #chat-container-target {
+            height: 100%;
+            box-shadow: 0px 0px 20px #C6CCD5;
+            border-radius: 8px;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<header style="
+    height: 48px;
+    padding: 0 16px;
+    margin: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center; 
+    gap: 24px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; 
+    justify-content: space-between;
+    position: relative;
+">
+    <p style="
+        font-size: 18px; 
+        font-weight: 600;
+        color: darkgray;
+        margin: 0;
+        padding: 0;
+        margin-inline-start: 10px;
+        margin-right: 250px; 
+    ">
+        Welcome to a demonstration environment of IBM Watsonx Orchestrate agentic AI.
+    </p>
+    <p>Custom Element</p>
+
+
+</header>
+
+<body style="overflow-y: hidden;">
+    <span style="display: flex; flex-direction: row;">
+        <div style="justify-content: center; position: relative; min-height: 100vh; width: 35vw;">
+            <div style="padding:25px; height: 85vh; border-radius: 8px;">
+                <div id="chat-container-target"></div>
+            </div>
+        </div>
+
+        <!-- // Embedded agent script -->
+
+        <script>
+            // This is the host element to drop the chat in when layout form is custom
+            const hostElement = document.getElementById("chat-container-target");
+
+            window.wxOConfiguration = {
+                orchestrationID: "a11ac9a4e11b4f2ea5316197cbef1878_9ceb7762-68d3-428c-a8c5-da6874fc4cf4",
+                hostURL: "https://us-south.watson-orchestrate.cloud.ibm.com",
+                rootElementID: "root",
+                deploymentPlatform: "ibmcloud",
+                crn: "crn:v1:bluemix:public:watsonx-orchestrate:us-south:a/a11ac9a4e11b4f2ea5316197cbef1878:9ceb7762-68d3-428c-a8c5-da6874fc4cf4::",
+                chatOptions: {
+                    agentId: "bb10a4ff-bbbb-4d2c-ac06-1e2e36aa3285",
+                    agentEnvironmentId: "de563995-0959-411c-a51b-4fb3b2cfa8ba",
+                },
+
+                // This is where you can apply custom layout instructions
+                layout: {
+                    form: "custom",  
+                    customElement: hostElement
+                }
+            };
+            setTimeout(function () {
+                const script = document.createElement('script');
+                script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+                script.addEventListener('load', function () {
+                    wxoLoader.init();
+                });
+                document.head.appendChild(script);
+            }, 0);                     
+        </script>
+
+        <div style="justify-content: center; position: relative; min-height: 100vh; width: 65vw;">
+            <div style="padding:25px; height: 85vh; border-radius: 8px;">
+                <div id="chat-container-target">
+                    <p style="margin:auto;">Custom layout</p>
+                </div>
+            </div>
+        </div>
+    </span>
+</body>
+
+</html>
