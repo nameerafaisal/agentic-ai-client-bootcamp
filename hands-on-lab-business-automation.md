@@ -261,15 +261,23 @@ Follow the steps above, then try interacting with the use case using these sampl
 
 ## 🌐 Bonus Labs — Embedding Orchestrate Chat in a Webpage
 
-In this bonus lab, you’ll learn how to embed your Orchestrate chat experience directly into a simple HTML webpage. This allows you to interact with your agent outside of the Orchestrate interface — for example, within a product page, internal portal, or demo site. By the end of this lab, you’ll understand how to:
+Welcome to the bonus lab! Here we'll explore different ways you can view watsonx orchestrate in your own application.
 
-- Connect your deployed agent using its public streaming endpoint.
-- Embed and render the chat interface using basic HTML and JavaScript.
-- Customize the layout and appearance to fit different web experiences.
+### Overview
+Using the Embedded agent code, we can include a script on our own applications that renders the agent. To find the embedded agent code, go to the Agent Builder and under "Channels" select "Embedded agent". Once you've deployed your agent, copy and paste the Live script into your own app!
 
-In the [bonus labs folder](bonus-labs) of this directory, you’ll find three examples that demonstrate different embedding styles:
-1. Pop-Up Chat – Displays the chat window when a user clicks a button.
-2. Fullscreen Overlay – Expands the chat interface to cover the entire screen.
-3. Custom Element – Embeds the chat as a reusable component within a webpage.
+### Content
 
-Each example provides a ready-to-run HTML file so you can quickly test how Orchestrate chat can be integrated into any front-end environment.
+There are 3 files included in the repo with the type of view displayed below. This gives you or your customers more customizability with the display of your agent.
+
+
+| Filename | View | 
+| -------- | -------- | 
+| Index_layout_1.html  | pop-up  | 
+| Index_layout_2.html  | fullscreen-overlay  | 
+| Index_layout_3.html  | custom element  | 
+
+### Helpful Resources:
+
+Sometimes with new instances of watsonx orchestrate there are security permissions stopping you from rendering the chat outside of the IBM Cloud Watsonx Orchestrate UI. To solve this follow these steps to configure your security settings with the provided script:
+https://developer.watson-orchestrate.ibm.com/agents/integrate_agents#embedding-agent-web-chat
